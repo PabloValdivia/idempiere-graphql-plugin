@@ -1,7 +1,16 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Graphql
-Bundle-SymbolicName: cz.naseukoly.idempiere.graphql
+Bundle-Name: GraphQL
+Bundle-SymbolicName: cz.naseukoly.idempiere.graphql;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: cz.naseukoly.idempiere.graphql
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="6.2.0",
+ org.adempiere.plugin.utils;bundle-version="6.2.0",
+ org.eclipse.osgi
+Web-ContextPath: graphql
+Import-Package: javax.servlet;version="3.1.0",
+ javax.servlet.annotation;version="3.1.0",
+ javax.servlet.http;version="3.1.0"
+Bundle-Activator: cz.naseukoly.idempiere.graphql.Activator
+
