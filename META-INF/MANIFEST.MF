@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Graphql
+Bundle-SymbolicName: cz.naseukoly.idempiere.graphql
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: cz.naseukoly.idempiere.graphql
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
