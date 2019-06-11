@@ -1,0 +1,20 @@
+<web-app>
+		<servlet>
+			<servlet-name>graphql</servlet-name> 		
+			<servlet-class>cz.naseukoly.idempiere.graphql.HelloServlet</servlet-class>
+		</servlet>
+		<servlet>
+			<servlet-name>SayHello</servlet-name> 		
+			<servlet-class>cz.naseukoly.idempiere.graphql.SayHello</servlet-class>
+		</servlet>		
+
+		<servlet-mapping>
+			<servlet-name>graphql</servlet-name> 		
+			<url-pattern>/graphql/*</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+			<servlet-name>SayHello</servlet-name> 		
+			<url-pattern>/SayHello/*</url-pattern>
+		</servlet-mapping>
+
+</web-app>
